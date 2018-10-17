@@ -7,6 +7,11 @@ public abstract class Vehicle {
         this.speed = 0;
         this.gear = 0;
     }
+    
+     public Vehicle(int speed, int gear){
+        this.speed = speed;
+        this.gear = gear;
+    }
 
 
     public int getSpeed() {
