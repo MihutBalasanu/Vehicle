@@ -22,14 +22,11 @@ public abstract class Vehicle {
     }
 
     public void speedUp(int increment){
-        int newSpeed = speed + increment;
-        speed = newSpeed;
+        speed = speed + increment;
     }
 
     public void applyBrakes(int decrement){
-        int newSpeed = speed - decrement;
-        speed = newSpeed;
-
+        speed = speed - decrement;
     }
 
     public abstract void printState();
