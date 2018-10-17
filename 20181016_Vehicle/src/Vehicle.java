@@ -4,8 +4,8 @@ public abstract class Vehicle {
     private int gear;
 
     public Vehicle() {
-        this.speed = speed;
-        this.gear = gear;
+        this.speed = 0;
+        this.gear = 0;
     }
 
 
